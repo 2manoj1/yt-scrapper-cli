@@ -1,20 +1,19 @@
 {
-	"name": "@manoj/yt-cli",
+	"name": "mm-yt-cli",
 	"version": "1.0.0",
-	"main": "main.js",
+	"main": "dist/main.js",
 	"license": "MIT",
 	"type": "module",
+	"bin": {
+		"mm-yt-cli": "main.js"
+	},
 	"engines": {
 		"node": ">=16.0.0"
 	},
 	"scripts": {
 		"dev": "node main.js",
 		"etest": "node main.js --url \"https://www.youtube.com/watch?v=ELQOSPE3O68\"",
-		"test": "jest",
-		"build": "babel main.js -o dist/main.js"
-	},
-	"bin": {
-		"@manoj/yt-cli": "node main.js"
+		"test": "jest"
 	},
 	"dependencies": {
 		"arg": "^5.0.2",
