@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // Import required modules using ES module syntax
 import arg from "arg";
 import { getContent } from "./scrapper.js";
