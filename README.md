@@ -2,6 +2,9 @@
 
 "mm-yt-cli" is a command-line tool that allows you to fetch metadata (title, author, description, etc.) from YouTube videos.
 
+<img width="1512" alt="Screenshot 2023-04-16 at 8 02 52 PM" src="https://user-images.githubusercontent.com/15128569/232320169-35243d96-24ae-4f4f-ae05-6be62c435458.png">
+
+
 ## Installation
 
 You can run "mm-yt-cli" directly using npx without installing it globally:
