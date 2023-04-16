@@ -1,7 +1,16 @@
 {
 	"name": "mm-yt-cli",
-	"version": "1.0.1",
-	"main": "dist/main.js",
+	"version": "1.0.2",
+	"description": "command-line tool that allows you to fetch metadata (title, author, description, etc.) from YouTube videos.",
+	"author": {
+		"name": "Manoj Mukherjee",
+		"email": "manojmukherjee777@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/2manoj1/yt-scrapper-cli"
+	},
+	"main": "main.js",
 	"license": "MIT",
 	"type": "module",
 	"bin": {
@@ -37,5 +46,15 @@
 		"jest-junit": "^16.0.0",
 		"jest-mock": "^29.5.0",
 		"ts-jest": "^29.1.0"
-	}
+	},
+	"bugs": {
+		"url": "https://github.com/2manoj1/yt-scrapper-cli/issues"
+	},
+	"keywords": [
+		"cli",
+		"nodejs",
+		"youtube",
+		"scrapper",
+		"javascript"
+	]
 }
