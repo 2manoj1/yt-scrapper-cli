@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" errors="0" time="1.936">
+  <testsuite name="parseArgumentsIntoOptions" errors="0" failures="0" skipped="0" timestamp="2023-04-16T12:51:30" time="0.122" tests="4">
+    <testcase classname="parseArgumentsIntoOptions should parse arguments and return options object" name="parseArgumentsIntoOptions should parse arguments and return options object" time="0.001">
+    </testcase>
+    <testcase classname="parseArgumentsIntoOptions should return null if --url argument is not provided" name="parseArgumentsIntoOptions should return null if --url argument is not provided" time="0">
+    </testcase>
+    <testcase classname="cli should call getContent function with provided URL" name="cli should call getContent function with provided URL" time="0.017">
+    </testcase>
+    <testcase classname="cli should print error message and exit with code 1 if --url argument is not provided" name="cli should print error message and exit with code 1 if --url argument is not provided" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="getContent" errors="0" failures="0" skipped="0" timestamp="2023-04-16T12:51:30" time="1.587" tests="3">
+    <testcase classname="getContent should fetch content metadata successfully" name="getContent should fetch content metadata successfully" time="0.006">
+    </testcase>
+    <testcase classname="getContent should throw an error if ytUrl is not a string" name="getContent should throw an error if ytUrl is not a string" time="0.004">
+    </testcase>
+    <testcase classname="getContent should throw an error if fetching content fails" name="getContent should throw an error if fetching content fails" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
