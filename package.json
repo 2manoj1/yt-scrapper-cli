@@ -1,6 +1,6 @@
 {
 	"name": "mm-yt-cli",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/main.js",
 	"license": "MIT",
 	"type": "module",
